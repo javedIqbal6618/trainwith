@@ -1,0 +1,29 @@
+git status
+ clear
+git add .
+git status
+clear
+git status
+git commit -m "added testing files"
+clear
+git status
+rm testing.py
+ls
+clear
+git status
+git restore testing.py
+clear
+git status
+
+git remote add origin 
+git remote -v
+git status
+ 
+git remote set-url origin  https:// (token-paste) @github.com/ (our repo link)
+clear
+git remote -v
+git push origin master
+clear
+
+
+this is some new changes
